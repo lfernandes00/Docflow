@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/backgroundColor">
+    <item
+        android:id="@+id/menu_item_home"
+        android:icon="@drawable/homepage_icon"
+        android:title="HomePage"
+        android:state_checked="true"/>
+
+    <item
+        android:id="@+id/menu_item_leaderboard"
+        android:icon="@drawable/trophy_icon"
+        android:title="Leaderboard"
+        android:state_checked="false"/>
+
+    <item
+        android:id="@+id/menu_item_upload"
+        android:icon="@drawable/ic_carregamento"
+        android:title="Upload"
+        android:state_checked="false"/>
+
+    <item
+        android:id="@+id/menu_item_request"
+        android:icon="@drawable/folder_icon"
+        android:title="Folder"
+        android:state_checked="false"/>
+
+    <item
+        android:id="@+id/menu_item_profile"
+        android:icon="@drawable/profile_icon"
+        android:title="Profile"
+        android:state_checked="false"/>
+</menu>

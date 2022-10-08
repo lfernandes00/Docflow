@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".NotificationFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:background="@color/backgroundColor">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="330dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:outlineAmbientShadowColor="@color/black"
+        android:outlineSpotShadowColor="@color/black"
+        card_view:cardElevation="5dp"
+        android:layout_marginBottom="10dp"
+        card_view:cardCornerRadius="18dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/cardIcon"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/ic_folder_filled"
+                android:backgroundTint="@color/orange"
+                />
+
+            <TextView
+                android:id="@+id/cardTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/cardIcon"
+                android:layout_marginStart="20dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/quicksand_bold"
+                />
+
+            <TextView
+                android:id="@+id/cardItems"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12 items"
+                android:layout_toEndOf="@+id/cardIcon"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:layout_below="@+id/cardTitle"
+                android:textSize="11sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/quicksand"
+                />
+
+            <ImageButton
+                android:id="@+id/cardBtn"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="15dp"
+                android:translationX="265dp"
+                android:background="@drawable/ic_arrow_request" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

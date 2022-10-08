@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".NotificationFragment"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:background="@color/backgroundColor">
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/card_view"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:outlineAmbientShadowColor="@color/black"
+        android:outlineSpotShadowColor="@color/black"
+        card_view:cardElevation="5dp"
+        android:layout_marginBottom="10dp"
+        card_view:cardCornerRadius="18dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/descText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tem documentos para aprovar"
+                android:layout_marginTop="19dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:textSize="15sp"
+                android:layout_marginStart="20dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/dateText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/descText"
+                android:layout_marginStart="20dp"
+                android:textSize="13sp"
+                android:text="07/01/2022 15:24:45"/>
+
+            <ImageButton
+                android:id="@+id/removeBtn"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/ic_cross"
+                android:translationX="305dp"
+                android:backgroundTint="@color/frejenRed"/>
+        </RelativeLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

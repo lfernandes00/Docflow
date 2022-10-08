@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Rui Couto/Desktop/grupo-2/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Rui Couto/Desktop/grupo-2/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Users/Rui Couto/Desktop/grupo-2/app/src/main/res/layout/admincard.xml" value="0.25" />
+        <entry key="..\:/Users/Rui Couto/Desktop/grupo-2/app/src/main/res/layout/adminfoldercard.xml" value="0.25" />
+        <entry key="..\:/Users/Rui Couto/Desktop/grupo-2/app/src/main/res/layout/foldercard.xml" value="0.25" />
+        <entry key="..\:/Users/Rui Couto/Desktop/grupo-2/app/src/main/res/layout/fragment_folder.xml" value="0.25" />
+        <entry key="..\:/Users/Rui Couto/Desktop/grupo-2/app/src/main/res/layout/fragment_home_page.xml" value="0.25" />
+        <entry key="..\:/Users/Rui Couto/Desktop/grupo-2/app/src/main/res/layout/fragment_leaderboard.xml" value="0.25" />
+        <entry key="..\:/Users/Rui Couto/Desktop/grupo-2/app/src/main/res/layout/fragment_upload_photo.xml" value="0.25" />
+        <entry key="..\:/Users/Rui Couto/Desktop/grupo-2/app/src/main/res/layout/fragment_user_management.xml" value="0.25" />
+        <entry key="..\:/Users/Rui Couto/Desktop/grupo-2/app/src/main/res/layout/leaderboardcard.xml" value="0.25" />
+        <entry key="..\:/Users/Rui Couto/Desktop/grupo-2/app/src/main/res/layout/requestcard.xml" value="0.25" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/drawable/circle.xml" value="0.1712962962962963" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/drawable/folder_icon.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/drawable/folder_options_dialog.xml" value="0.18703703703703703" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/drawable/homepage_icon.xml" value="0.1390625" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/drawable/ic_arrow_request.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/drawable/ic_carregamento.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/drawable/ic_coloropt1.xml" value="0.18703703703703703" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/drawable/ic_coloropt2.xml" value="0.18703703703703703" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/drawable/ic_coloropt3.xml" value="0.18703703703703703" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/drawable/ic_coloropt4.xml" value="0.18703703703703703" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/drawable/ic_cross.xml" value="0.1390625" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/drawable/ic_docflow.xml" value="0.1390625" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/drawable/ic_editar.xml" value="0.1390625" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/drawable/ic_homepage__1_.xml" value="0.14270833333333333" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/drawable/ic_info_leaderboard.xml" value="0.1675925925925926" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/drawable/ic_listagem1.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/drawable/ic_notifications.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/drawable/ic_search.xml" value="0.2324074074074074" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/drawable/ic_search_document.xml" value="0.14270833333333333" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/drawable/ic_seta.xml" value="0.1712962962962963" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/drawable/ic_trofeu.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/drawable/icon_color.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/drawable/img_rounded_border.xml" value="0.1824074074074074" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/drawable/leaderboard_button_color.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/drawable/leaderboard_buttons.xml" value="0.1962962962962963" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/drawable/profile_icon.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/drawable/rounded_buttons.xml" value="0.17222222222222222" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/drawable/rounded_dialog.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/drawable/rounded_edit_text.xml" value="0.14270833333333333" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/drawable/top_bar_gradient.xml" value="0.1712962962962963" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/drawable/transparent_card.xml" value="0.18703703703703703" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/drawable/trophy_icon.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/layout/activity_login.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/layout/activity_main.xml" value="0.18726114649681527" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/layout/activity_regist.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/layout/admincard.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/layout/createfolderdialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/layout/folder_options_dialog.xml" value="0.2" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/layout/fragment_document.xml" value="0.264" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/layout/fragment_edit_profile.xml" value="0.3889943074003795" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/layout/fragment_folder.xml" value="0.34953703703703703" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/layout/fragment_home_page.xml" value="0.4" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/layout/fragment_leaderboard.xml" value="0.264" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/layout/fragment_notification.xml" value="0.264" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/layout/fragment_request.xml" value="0.30127041742286753" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/layout/fragment_request_info.xml" value="0.2" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/layout/fragment_upload.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/layout/fragment_upload_photo.xml" value="0.22056159420289856" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/layout/fragment_user_management.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/layout/homepagecard1.xml" value="0.19157608695652173" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/layout/homepagecard2.xml" value="0.264" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/layout/leaderboard_dialog.xml" value="0.4" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/layout/leaderboardcard.xml" value="0.2341485507246377" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/layout/notificationcard.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/layout/profilecard.xml" value="0.2341485507246377" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/layout/requestcard.xml" value="0.32108843537414966" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/layout/requestinfocard.xml" value="0.2341485507246377" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/layout/usermanagementcard.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/luis_/OneDrive/Ambiente de Trabalho/3o_Ano/ESMAPP/Docflow/app/src/main/res/mipmap-anydpi-v26/person_img.xml" value="0.1390625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

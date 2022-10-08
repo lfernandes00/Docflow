@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@color/backgroundColor">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/top_bar_gradient"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:background="@drawable/ic_docflow"
+            android:backgroundTint="@color/white"
+            android:layout_gravity="center"
+            />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="300dp"
+        android:layout_height="430dp"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:outlineAmbientShadowColor="@color/black"
+        android:outlineSpotShadowColor="@color/black"
+        card_view:cardElevation="5dp"
+        android:layout_marginBottom="10dp"
+        card_view:cardCornerRadius="18dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/emailTextField"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="E-mail">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/emailText"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/passwordTextField"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            android:layout_below="@id/emailTextField"
+            android:hint="Password">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:id="@+id/passwordText"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/nameTextField"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/passwordTextField"
+                android:hint="Nome">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nameText"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/workerNumberTextField"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameTextField"
+                android:hint="Nº Funcionário">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/workerNumberText"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/registBtn"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/workerNumberTextField"
+                android:background="@drawable/rounded_buttons"
+                android:backgroundTint="@color/frejenRed"
+                android:layout_marginTop="30dp"
+                android:layout_centerHorizontal="true"
+                android:text="Registar"
+                android:textColor="@color/white"
+                android:fontFamily="@font/quicksand_bold"
+                android:textSize="15sp"
+                />
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="90dp"
+                android:text="Tem conta?"
+                android:layout_below="@id/registBtn"
+                android:fontFamily="@font/quicksand"
+                />
+
+            <TextView
+                android:id="@+id/loginText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/text1"
+                android:text="Entre"
+                android:clickable="true"
+                android:layout_below="@id/registBtn"
+                android:fontFamily="@font/quicksand"
+                android:textColor="@color/frejenRed"
+                />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

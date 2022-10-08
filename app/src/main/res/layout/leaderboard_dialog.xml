@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/rounded_dialog">
+
+    <ImageButton
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:id="@+id/cross"
+        android:background="@drawable/ic_cross"
+        android:layout_marginTop="20dp"
+        android:translationX="300dp"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:elevation="12dp"
+        android:id="@+id/view"
+        app:cardCornerRadius="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="30dp">
+        <ImageView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/dialogPhoto"
+            android:scaleType="centerCrop"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialogName"
+        android:layout_below="@+id/view"
+        android:layout_marginTop="5dp"
+        android:text="Rafael Martins"
+        android:textSize="15sp"
+        android:textColor="@color/frejenRed"
+        android:fontFamily="@font/quicksand_bold"
+        android:layout_marginStart="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialogNumberTitle"
+        android:layout_toEndOf="@+id/view"
+        android:layout_marginTop="75dp"
+        android:text="Documentos revistos:"
+        android:textSize="13sp"
+        android:textColor="@color/frejenRed"
+        android:fontFamily="@font/quicksand_bold"
+        android:layout_marginStart="27dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialogNumber"
+        android:layout_toEndOf="@+id/view"
+        android:layout_below="@+id/dialogNumberTitle"
+        android:text="20"
+        android:textSize="13sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/quicksand"
+        android:layout_marginStart="27dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialogTimeTitle"
+        android:layout_toEndOf="@+id/view"
+        android:layout_below="@+id/dialogNumber"
+        android:layout_marginTop="20dp"
+        android:text="Tempo de revisão:"
+        android:textSize="13sp"
+        android:textColor="@color/frejenRed"
+        android:fontFamily="@font/quicksand_bold"
+        android:layout_marginStart="27dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialogTime"
+        android:layout_toEndOf="@+id/view"
+        android:layout_below="@+id/dialogTimeTitle"
+        android:text="1 hora e 30 minutos"
+        android:textSize="13sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/quicksand"
+        android:layout_marginStart="27dp"
+        />
+
+</RelativeLayout>
